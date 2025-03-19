@@ -68,6 +68,7 @@ extension SurveyQuestionView: View {
             selectAllThatApplyView
             answerList
         }
+        .onChange(of: question, resetOtherText)
     }
 
     private var titleView: some View {
@@ -112,7 +113,6 @@ extension SurveyQuestionView: View {
         if question.includeOther {
             OtherTextField(text: $otherText)
                 .onChange(of: otherText, otherTextChanged)
-                .onChange(of: question, resetOtherText)
         }
     }
 }

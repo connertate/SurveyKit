@@ -72,6 +72,7 @@ public struct SurveyFlow {
     }
 
     private func backAction() {
+        guard currentStep > 1 else { return }
         currentStep -= 1
     }
 
