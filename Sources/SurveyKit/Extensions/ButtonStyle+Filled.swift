@@ -24,7 +24,7 @@ struct FilledButtonStyle: ButtonStyle {
             .frame(height: 50)
             .background(
                 backgroundColor,
-                in: .rect(cornerRadius: 10)
+                in: .rect(cornerRadius: 50)
             )
             .foregroundStyle(foregroundColor)
             .font(.body.weight(.medium))
