@@ -14,7 +14,7 @@ struct BezeledGrayButtonStyle: ButtonStyle {
             .frame(height: 50)
             .background(
                 .background.secondary,
-                in: .rect(cornerRadius: 10)
+                in: .rect(cornerRadius: 50)
             )
             .foregroundStyle(.primary)
             .font(.body.weight(.medium))
