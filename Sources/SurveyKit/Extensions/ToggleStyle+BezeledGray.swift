@@ -26,7 +26,7 @@ struct BezeledGrayToggleStyle: ToggleStyle {
         )
         .buttonStyle(.bezeledGray)
         .overlay(
-            RoundedRectangle(cornerRadius: 10)
+            RoundedRectangle(cornerRadius: 50)
                 .strokeBorder(
                     borderColor,
                     style: .init(lineWidth: 2)
